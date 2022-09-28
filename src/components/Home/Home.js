@@ -9,6 +9,7 @@ import Breaktime from '../Breaktime/Breaktime';
 const Home = () => {
 
     const [players,setPlayers]=useState([]);
+    const[saveTime,setsaveTime]=useState([]);
 
     useEffect(()=>{
         fetch('dataset.json')
@@ -22,6 +23,13 @@ const Home = () => {
     },[])
 
     console.log("PLayers",players)
+
+    const handleAddTime=(time)=>{
+        return(
+            console.log(time)
+            
+        )
+    }
 
     return (
         <div className='main-home-container'>
@@ -43,6 +51,7 @@ const Home = () => {
                         <Player 
                         player={player}
                         key={player.id}
+                        handleAddTime={handleAddTime}
                         ></Player>
                        )
                     })
@@ -57,8 +66,11 @@ const Home = () => {
                    <h4>Web Devloper</h4>
                 </div>
                 <div className="add-a-break">
-                   <Breaktime></Breaktime>
+                   <Breaktime 
+                  
+                   ></Breaktime>
                 </div>
+                <button>Activity Completed</button>
             </div>
         </div>
             

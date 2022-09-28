@@ -1,0 +1,22 @@
+.exercise-text{
+    margin-top:15px;
+    padding:4px  10px;
+}
+
+.break-times{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #0c7075;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    height: 40px;
+    align-items: center;
+    margin: 15px 0px;
+   
+}
+.excercise-time-container{
+    
+    margin-top: 20px;
+}

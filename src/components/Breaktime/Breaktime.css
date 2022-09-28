@@ -4,7 +4,7 @@
 .break-circle-time{
     display: 
     flex;
-    justify-content: space-evenly;
+   justify-content: space-evenly;
    padding: 10px;
    background-color: #0c7075;
    border-radius: 8px;
@@ -19,4 +19,7 @@
    border-radius: 50%;
    cursor: pointer;
   
+}
+.break-time-container{
+    margin-top: 20px;
 }

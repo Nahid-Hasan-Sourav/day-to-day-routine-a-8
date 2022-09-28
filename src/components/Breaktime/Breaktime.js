@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Exercisedetails from "../ExcerciseDetails/Exercisedetails";
 import "./Breaktime.css";
 
 const Breaktime = () => {
@@ -9,23 +10,31 @@ const Breaktime = () => {
     setStoreTime(e.target.innerText.slice(0,2));
   }
   console.log(storeTime);
+  console.log(typeof storeTime);
   return (
-    <div className="break-time">
-      <div className="break-time-text">
-        <h2>Add A Break</h2>
-      </div>
-      <div className="break-circle-time">
-        {/* <h5>20m</h5>
-                <h5>30m</h5>
-                <h5>40m</h5>
-                <h5>50m</h5>
-                <h5>60m</h5> */}
-        {timeArray.map((t) => {
-          return <h5
-          onClick={takenTime}
-          >{t}M</h5>;
-        })}
-      </div>
+    <div className="break-time-container">
+
+            <div className="break-time">
+                  <div className="break-time-text">
+                    <h2>Add A Break</h2>
+                  </div>
+                  <div className="break-circle-time">
+
+                    {timeArray.map((t,id) => {
+                      return <h5
+                      onClick={takenTime} key={id}
+                      >{t}M</h5>;
+                    })}
+                  </div>
+              </div>
+              <div>
+                <Exercisedetails
+                storeTime={storeTime}
+                >
+
+                </Exercisedetails>
+              </div>
+
     </div>
   );
 };

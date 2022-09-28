@@ -38,3 +38,6 @@
     margin: 16px 0px 8px 0px;
 
 }
+.player-btn:focus{
+    background-color: #0c7075;
+}
