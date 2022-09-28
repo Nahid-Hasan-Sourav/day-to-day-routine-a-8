@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1aBC",
+    "name": "Iñaki Peña",
+    "image": "https://www.fcbarcelona.com/photo-resources/2022/08/02/db879f0f-4cd9-4330-9236-3644ec8a524c/jugador_fitxa-inaki_pena.jpg?width=640&height=400",
+    "age":"23",
+    "practiceTime": "30",
+    "Description": "Iñaki Peña signed for Alicante CF when he was just five years old. In 2009, Villarreal CF was interested in the precocious player, where he began to stand out, especially in 2011, when he was chosen as the best goalkeeper of the Arona tournament. Barça had its eye on him and a year later he came to the Masia."
+  },
+  {
+    "id": "2bBC",
+    "name": "Christensen",
+    "image": "https://www.fcbarcelona.com/photo-resources/2022/07/12/382f08c8-1d66-466c-8ddf-3aad0a05ae02/jugador_fitxa-christensen.jpg?width=640&height=400",
+    "age":"28",
+    "practiceTime": "20",
+    "Description": "An excellent reader of the game and versatile centre back, Andreas Christensen (10 April 1996) was born in Lillerød (Denmark) where he started out at IF Skjold Birkerød, soon catching the eye of Brøndby IF."
+  },
+  {
+    "id": "3cBC",
+    "name": "Alonso",
+    "image": "https://www.fcbarcelona.com/photo-resources/2022/09/06/26e82189-d7ab-45be-bfcf-a9240af8f75e/jugador_fitxa-marcos_a.jpg?width=640&height=400",
+    "age":"29",
+    "practiceTime": "40",
+    "Description": "A full back who can also play as wing back and a threat from set pieces, Marcos Alson was born in Madrid on 28 December 1990 and comes from a family with a strong footballing tradition. His great grandfather, Luís Zabala; his grandfather, Marcos Alonso Imaz, 'Marquitos'; and his father, Marcos Alonso Peña; were all professional footballers. His father and great grandfather both did do for Barça."
+  },
+  {
+    "id": "4dBC",
+    "name": "Pedri",
+    "image": "https://www.fcbarcelona.com/photo-resources/2022/07/01/41c94cd4-c2d8-40a9-bfea-6714dbd024ab/jugador_fitxa-pedri.jpg?width=640&height=400",
+    "age":"30",
+    "practiceTime": "30",
+    "Description": "On September 2, 2019, FC Barcelona and Las Palmas reached an agreement for the transfer of Pedri. However, the Canarian player didn't join the blaugranes until August 2020. Born in Tegueste, Tenerife, on November 25, 2002, he began his football career in the team from his hometown. "
+  },
+  {
+    "id": "5eBC",
+    "name": "Depay",
+    "image": "https://www.fcbarcelona.com/photo-resources/2022/07/01/00d7874b-0d7c-4898-8a10-df731adafcfd/jugador_fitxa-memphis.jpg?width=640&height=400",
+    "age":"26",
+    "practiceTime": "45",
+    "Description": "The Dutchman signed for Barça in the summer of 2021 after playing previously in the Eredivisie, Premier League and Ligue 1. Born 3 February 1994 in Moordrecht (Holland), Memphis Depay is more than the usual striker."
+  },
+  {
+    "id": "6fBC",
+    "name": "Raphinha",
+    "image": "https://www.fcbarcelona.com/photo-resources/2022/07/24/873308b9-d7fb-4da6-a8d2-000721ef6d4c/jugador_fitxa-raphinha.jpg?width=640&height=400",
+    "age":"31",
+    "practiceTime": "28",
+    "Description": "A technically proficient winger, with good dribbling, decision making and  an appealing and attractive style of play Raphael Dias Belloli (Raphinha) was born on 14 December 1996 in Porto Alegre, Brazil. He joined the Club from Leeds United in summer 2022."
+  }
+]

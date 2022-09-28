@@ -1,0 +1,40 @@
+.player-cart{
+    width: 300px;
+    border: 1px solid rgb(130, 128, 128);
+    padding:15px 15px;
+    border-radius: 5px;
+}
+.player-img{
+    width:300px;
+    height:150px;
+    border-radius: 8px;
+    /* object-fit: cover; */
+}
+.player-name{
+    margin: 12px 0px;
+}
+
+.player-details{
+    margin-bottom:8px;
+}
+
+.read-more{
+    font-weight: bold;
+    color: rgb(252, 79, 11) ;
+    cursor: pointer;
+}
+.player-age{
+    margin-bottom:8px;
+}
+.player-btn{
+    width: 100%;
+    background-color: rgb(252, 79, 11);
+    color: white;
+    font-weight: bold;
+    padding: 7px 5px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin: 16px 0px 8px 0px;
+
+}
