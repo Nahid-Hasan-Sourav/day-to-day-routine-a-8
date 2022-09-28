@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 .main-home-container{
     background-color: rgba(238, 237, 237, 0.816);
@@ -8,25 +9,36 @@
 .home-container{
     display: grid;
     /* grid-template-columns: 1fr 1fr; */
-    /* grid-template-columns: repeat(12,1fr); */
-    grid-template-areas:
-    "l l l l l l l l r r r r";  
+    grid-template-columns:repeat(12,1fr);
+    grid-template-areas: "ls ls ls ls ls ls ls ls ls rs rs rs ";
     grid-column-gap: 10px;
     margin: 0px 20px;
 }
 .left-side{
-    grid-area: 'l';
+    grid-area: ls;
     border: 2px solid red;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-gap:15px;
+    grid-gap:8px;
+   
     
     
 }
 .right-side{
-    grid-area: 'r';
+    grid-area: rs;
     border: 1px solid green;
    
+   
+   
+}
+.right-side .profile{
+    position: sticky;
+    top:0px;
+    text-align: center;
+    padding-top: 20px;
+}
+.right-side .profile h2{
+    margin: 4px 0px;
 }
 .title-logo-text h3{
     padding: 10px;
@@ -52,4 +64,8 @@
 .logo{
     height: 50px;
     width:  50px;
+}
+.profile-image{
+    width: 80px;
+    height: 80px;
 }

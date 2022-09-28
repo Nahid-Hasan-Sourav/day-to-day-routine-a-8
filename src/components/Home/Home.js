@@ -1,6 +1,7 @@
 import './Home.css'
 import React, { useEffect, useState } from 'react';
-import logo from '../../ImagesBarcelona(200x203) .png';
+import logo from '../../Images/Barcelona(200x203) .png';
+import proImg from '../../Images/blue--.png'
 import Player from '../Player/Player';
 
 const Home = () => {
@@ -49,7 +50,9 @@ const Home = () => {
 
             <div className="right-side">
                 <div className="profile">
-                    <img></img>
+                   <img src={proImg} alt='profile' className='profile-image'/>
+                   <h2>Nahid Hasan Sourav</h2>
+                   <h4>Web Devloper</h4>
                 </div>
             </div>
         </div>
