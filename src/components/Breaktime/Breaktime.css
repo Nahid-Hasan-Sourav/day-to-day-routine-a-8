@@ -1,0 +1,22 @@
+.break-time-text{
+    padding: 10px;
+}
+.break-circle-time{
+    display: 
+    flex;
+    justify-content: space-evenly;
+   padding: 10px;
+   background-color: #0c7075;
+   border-radius: 8px;
+}
+.break-circle-time h5{
+    width: 40px;
+    height: 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: red;
+   border-radius: 50%;
+   cursor: pointer;
+  
+}

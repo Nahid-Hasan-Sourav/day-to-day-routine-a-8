@@ -4,6 +4,8 @@ import logo from '../../Images/Barcelona(200x203) .png';
 import proImg from '../../Images/blue--.png'
 import Player from '../Player/Player';
 
+import Breaktime from '../Breaktime/Breaktime';
+
 const Home = () => {
 
     const [players,setPlayers]=useState([]);
@@ -53,6 +55,9 @@ const Home = () => {
                    <img src={proImg} alt='profile' className='profile-image'/>
                    <h2>Nahid Hasan Sourav</h2>
                    <h4>Web Devloper</h4>
+                </div>
+                <div className="add-a-break">
+                   <Breaktime></Breaktime>
                 </div>
             </div>
         </div>

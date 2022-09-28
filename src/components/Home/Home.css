@@ -27,15 +27,19 @@
 .right-side{
     grid-area: rs;
     border: 1px solid green;
+    padding: 0px 15px;
+    position: sticky;
+    top: 0px;
    
    
    
 }
 .right-side .profile{
-    position: sticky;
+   
     top:0px;
     text-align: center;
     padding-top: 20px;
+  
 }
 .right-side .profile h2{
     margin: 4px 0px;
@@ -68,4 +72,9 @@
 .profile-image{
     width: 80px;
     height: 80px;
+}
+.add-a-break{
+    /* background-color: #1d848a;
+    color: white; */
+    margin-top: 15px;
 }
