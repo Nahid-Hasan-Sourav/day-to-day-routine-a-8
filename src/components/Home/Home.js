@@ -7,6 +7,7 @@ import Activity from '../Activity/Activity';
 
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Question from '../Questions/Question';
 
 const Home = () => {
 
@@ -105,7 +106,7 @@ const Home = () => {
            </div>
                
            </div>
-
+            <Question className="question"></Question>
         </div>
     );
 };
