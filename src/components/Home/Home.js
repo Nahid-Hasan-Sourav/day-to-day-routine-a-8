@@ -2,10 +2,11 @@ import './Home.css'
 import React, { useEffect, useState } from 'react';
 import logo from '../../Images/logoDaily.png'
 import proImg from '../../Images/blue--.png'
-
-
 import Breaktime from '../Breaktime/Breaktime';
 import Activity from '../Activity/Activity';
+
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Home = () => {
 
@@ -38,7 +39,10 @@ const Home = () => {
 
       
     }
-   
+   const showToast =(e)=>{
+    toast("Activity Completed Successfully!!");
+    e.target.style.backgroundColor="red"
+   }
 
     console.log("Save Time",saveTime)
 
@@ -82,7 +86,8 @@ const Home = () => {
                   saveTime={saveTime}
                    ></Breaktime>
                 </div>
-                <button className='activity-btn'>Activity Completed</button>
+                <button className='activity-btn' onClick={showToast}>Activity Completed</button>
+                <ToastContainer />
             </div>
         </div>
             
