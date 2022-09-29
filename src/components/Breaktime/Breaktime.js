@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
+import { addToDb } from "../../utilities/Fakedb";
 import Exercisedetails from "../ExcerciseDetails/Exercisedetails";
 import "./Breaktime.css";
 
@@ -13,10 +14,23 @@ const Breaktime = ({saveTime}) => {
     // setTimeout(() => {
     //   e.target.style.backgroundColor='white'
     // }, 100);
-    setbreakTime(e.target.innerText.slice(0,2))
-    
+    const breakTimes=e.target.innerText.slice(0,2)
+    setbreakTime(breakTimes)
+    addToDb(breakTimes)
+   
+
+
   }
-  console.log('Break Times',breakTime)
+
+  useEffect(()=>{
+
+    let getData=localStorage.getItem('Time');
+    getData=JSON.parse(getData);
+    console.log("Get Data : ",getData);
+    setbreakTime(getData);
+  },[])
+
+  // console.log('Break Times',breakTime)
 
   // console.log(storeTime);
   // console.log(typeof storeTime);

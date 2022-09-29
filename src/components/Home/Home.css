@@ -155,5 +155,21 @@
    
   }
   @media (min-width: 992px) and (max-width: 1199.98px) {
-    
+    .home-container{
+       
+        grid-template-columns:repeat(1,1fr);
+        grid-template-areas: 
+        "ls"
+        "rs";
+        grid-column-gap: 10px;
+        margin: 0px 20px;
+    }
+    .left-side{
+       
+        grid-template-columns: repeat(2,1fr);
+       
+       
+        
+        
+    }
   }

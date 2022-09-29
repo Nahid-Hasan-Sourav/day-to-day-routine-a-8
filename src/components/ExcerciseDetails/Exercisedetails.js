@@ -3,7 +3,7 @@ import './Exercisedetails.css'
 
 
 const Exercisedetails = ({breakTime,saveTime}) => {
-console.log("This is saved time :",saveTime)
+// console.log("This is saved time :",saveTime)
     
    let total=0;
     saveTime?.map((time) =>{
@@ -11,7 +11,7 @@ console.log("This is saved time :",saveTime)
             total=total+Number(time) 
         )
     })
-    console.log("Total time :",total);
+    // console.log("Total time :",total);
 
     return (
         <div className='excercise-time-container'>
