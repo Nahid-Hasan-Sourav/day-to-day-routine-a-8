@@ -2,13 +2,14 @@ import './Home.css'
 import React, { useEffect, useState } from 'react';
 
 import proImg from '../../Images/blue--.png'
-import Player from '../Activity/Activity';
+
 
 import Breaktime from '../Breaktime/Breaktime';
+import Activity from '../Activity/Activity';
 
 const Home = () => {
 
-    const [players,setPlayers]=useState([]);
+    const [activities,setActivities]=useState([]);
     const[saveTime,setsaveTime]=useState([]);
    
 
@@ -18,24 +19,26 @@ const Home = () => {
             return res.json()
         })
         .then((data)=>{
-            setPlayers(data)
-            console.log(data)
+            setActivities(data)
+            // console.log(data)
         })
     },[])
 
-    console.log("PLayers",players)
+    // console.log("activities",activities)
 
     const handleAddTime=(time)=>{
        
            
             const saveTimeArray=[...saveTime,time];
             setsaveTime(saveTimeArray)
+
            
            
             
 
       
     }
+   
 
     console.log("Save Time",saveTime)
 
@@ -54,14 +57,14 @@ const Home = () => {
         <div className="home-container">
             <div className="left-side">
                 {
-                    players.map((player)=>{
+                    activities.map((activity)=>{
                        return(
-                        <Player 
-                        player={player}
-                        key={player.id}
+                        <Activity
+                        activity={activity}
+                        key={activity.id}
                         handleAddTime={handleAddTime}
 
-                        ></Player>
+                        ></Activity>
                        )
                     })
                 }

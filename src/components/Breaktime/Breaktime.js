@@ -14,8 +14,10 @@ const Breaktime = ({saveTime}) => {
     //   e.target.style.backgroundColor='white'
     // }, 100);
     setbreakTime(e.target.innerText.slice(0,2))
+    
   }
   console.log('Break Times',breakTime)
+
   // console.log(storeTime);
   // console.log(typeof storeTime);
   return (
@@ -42,6 +44,7 @@ const Breaktime = ({saveTime}) => {
                 <Exercisedetails
                
                breakTime={breakTime}
+               saveTime={saveTime}
                 >
 
                 </Exercisedetails>

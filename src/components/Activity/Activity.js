@@ -2,10 +2,10 @@
 import React from 'react';
 import './Activity.css'
 
-const Activity = ({player,handleAddTime}) => {
-    console.log("props",player);
+const Activity = ({activity,handleAddTime}) => {
+    // console.log("props",activity);
     const{image,name,practiceTime,Description,
-    }=player;
+    }=activity;
     return (
         <div className='player-cart'>
             <img src={image}  className='player-img' alt='Player'/>
