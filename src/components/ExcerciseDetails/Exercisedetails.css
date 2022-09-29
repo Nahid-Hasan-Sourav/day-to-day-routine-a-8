@@ -4,7 +4,7 @@
     font-weight: 900;
 }
 
-.break-times{
+.break-times,.exercise-times{
     display: flex;
     justify-content: space-between;
     /* padding: 10px; */

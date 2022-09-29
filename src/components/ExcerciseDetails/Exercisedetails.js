@@ -19,7 +19,7 @@ const Exercisedetails = ({breakTime,saveTime}) => {
                <h2>Exercise Details</h2>
             </div>
            
-            <div className="break-times">
+            <div className="exercise-times">
                 <h6>Exercise time</h6>
                 <p>{total} Hours</p>
             </div>
