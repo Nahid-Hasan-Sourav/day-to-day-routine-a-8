@@ -115,6 +115,7 @@
         grid-column-gap: 10px;
         margin:0 auto;
         width: 90%;
+        grid-gap: 20px;
     }
     .left-side{
        
@@ -137,6 +138,7 @@
         "rs";
         grid-column-gap: 10px;
         margin: 0px 20px;
+        grid-gap: 20px;
     }
     .left-side{
        

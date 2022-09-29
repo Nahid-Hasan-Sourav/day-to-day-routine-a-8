@@ -1,12 +1,13 @@
 .exercise-text{
     margin-top:15px;
     padding:4px  10px;
+    font-weight: 900;
 }
 
 .break-times{
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    /* padding: 10px; */
     background-color: #0c7075;
     border-radius: 8px;
     color: white;
@@ -14,6 +15,8 @@
     height: 40px;
     align-items: center;
     margin: 15px 0px;
+    padding:35px 10px;
+    font-size: 25px;
    
 }
 .excercise-time-container{
