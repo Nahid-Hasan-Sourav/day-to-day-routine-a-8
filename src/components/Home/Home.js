@@ -9,6 +9,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Question from '../Questions/Question';
 
+
 const Home = () => {
 
     const [activities,setActivities]=useState([]);
@@ -93,7 +94,7 @@ const Home = () => {
                       <img src={proImg} alt='profile' className='profile-image'/>
                       <h4>Nahid Hasan Sourav</h4>
                       <h5>Web Devloper</h5>
-                      <h6>Dhaka,Bangladesh</h6>
+                      <h6><span className='location'><i class="fa-solid fa-location-dot"></i></span>Dhaka,Bangladesh</h6>
                    </div>
                    <div className="add-a-break">
                       <Breaktime 

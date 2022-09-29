@@ -113,7 +113,10 @@
     cursor: pointer;
 }
 
-
+.location{
+    margin: 0px 4px;
+    display: inline-block;
+}
 @media (max-width: 575.98px) { 
     .home-container{
        
