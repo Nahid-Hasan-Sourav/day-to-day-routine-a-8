@@ -1,50 +1,50 @@
 [
   {
     "id": "1aBC",
-    "name": "Iñaki Peña",
-    "image": "https://www.fcbarcelona.com/photo-resources/2022/08/02/db879f0f-4cd9-4330-9236-3644ec8a524c/jugador_fitxa-inaki_pena.jpg?width=640&height=400",
+    "name": "Study",
+    "image": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c3R1ZHl8ZW58MHx8MHx8&w=1000&q=80",
     "age":"23",
-    "practiceTime": "30",
-    "Description": "Iñaki Peña signed for Alicante CF when he was just five years old. In 2009, Villarreal CF was interested in the precocious player, where he began to stand out, especially in 2011, when he was chosen as the best goalkeeper of the Arona tournament. Barça had its eye on him and a year later he came to the Masia."
+    "practiceTime": "2.5",
+    "Description": "Studying is not just important for educational development, but also builds personal skills. Having good study skills can improve your confidence, competence, and self-esteem. As well as helps reduce stress and anxiety around deadlines and exams."
   },
   {
     "id": "2bBC",
-    "name": "Christensen",
-    "image": "https://www.fcbarcelona.com/photo-resources/2022/07/12/382f08c8-1d66-466c-8ddf-3aad0a05ae02/jugador_fitxa-christensen.jpg?width=640&height=400",
+    "name": "Prayer",
+    "image": "https://www.islamicity.org/wp-content/plugins/blueprint-timthumb/timthumb.php?src=http://media.islamicity.org/wp-content/uploads/2017/10/iStock-628846748Prayer.jpg&w=600&h=337&q=100",
     "age":"28",
-    "practiceTime": "20",
-    "Description": "An excellent reader of the game and versatile centre back, Andreas Christensen (10 April 1996) was born in Lillerød (Denmark) where he started out at IF Skjold Birkerød, soon catching the eye of Brøndby IF."
+    "practiceTime": "1",
+    "Description": "Prayer is an invocation or act that seeks to activate a rapport with an object of worship through deliberate communication. In the narrow sense, the term refers to an act of supplication or intercession directed towards a deity or a deified ancestor. More generally, prayer can also have the purpose of thanksgiving or praise, and in comparative religion is closely associated with more abstract forms of meditation and with charms or spells."
   },
   {
     "id": "3cBC",
-    "name": "Alonso",
-    "image": "https://www.fcbarcelona.com/photo-resources/2022/09/06/26e82189-d7ab-45be-bfcf-a9240af8f75e/jugador_fitxa-marcos_a.jpg?width=640&height=400",
+    "name": "Exercise",
+    "image": "https://cdn.mos.cms.futurecdn.net/KLZwUWe4JwyyXY7pV7CpaU.jpg",
     "age":"29",
-    "practiceTime": "40",
-    "Description": "A full back who can also play as wing back and a threat from set pieces, Marcos Alson was born in Madrid on 28 December 1990 and comes from a family with a strong footballing tradition. His great grandfather, Luís Zabala; his grandfather, Marcos Alonso Imaz, 'Marquitos'; and his father, Marcos Alonso Peña; were all professional footballers. His father and great grandfather both did do for Barça."
+    "practiceTime": "1",
+    "Description": "Exercise is a body activity that enhances or maintains physical fitness and overall health and wellness. It is performed for various reasons, to aid growth and improve strength, develop muscles and the cardiovascular system, hone athletic skills, weight loss or maintenance, improve health, or simply for enjoyment. Many individuals choose to exercise outdoors where they can congregate in groups, socialize, and improve well-being as well as mental health.In terms of health benefits, the amount of recommended exercise depends upon the goal, the type of exercise, and the age of the person. Even doing a small amount of exercise is healthier than doing none."
   },
   {
     "id": "4dBC",
-    "name": "Pedri",
-    "image": "https://www.fcbarcelona.com/photo-resources/2022/07/01/41c94cd4-c2d8-40a9-bfea-6714dbd024ab/jugador_fitxa-pedri.jpg?width=640&height=400",
+    "name": "Coding",
+    "image": "https://www.freecodecamp.org/news/content/images/size/w2000/2022/03/photo-1619410283995-43d9134e7656.jpeg",
     "age":"30",
-    "practiceTime": "30",
-    "Description": "On September 2, 2019, FC Barcelona and Las Palmas reached an agreement for the transfer of Pedri. However, the Canarian player didn't join the blaugranes until August 2020. Born in Tegueste, Tenerife, on November 25, 2002, he began his football career in the team from his hometown. "
+    "practiceTime": "7",
+    "Description": "Coding, sometimes called computer programming, is how we communicate with computers. Code tells a computer what actions to take, and writing code is like creating a set of instructions. By learning to write code, you can tell computers what to do or how to behave in a much faster way."
   },
   {
     "id": "5eBC",
-    "name": "Depay",
-    "image": "https://www.fcbarcelona.com/photo-resources/2022/07/01/00d7874b-0d7c-4898-8a10-df731adafcfd/jugador_fitxa-memphis.jpg?width=640&height=400",
+    "name": "Drawing",
+    "image": "https://www.easy-drawings-and-sketches.com/images/spiderman-21926967.jpg",
     "age":"26",
-    "practiceTime": "45",
-    "Description": "The Dutchman signed for Barça in the summer of 2021 after playing previously in the Eredivisie, Premier League and Ligue 1. Born 3 February 1994 in Moordrecht (Holland), Memphis Depay is more than the usual striker."
+    "practiceTime": "1",
+    "Description": "Drawing is one of the oldest forms of human expression within the visual arts. It is generally concerned with the marking of lines and areas of tone onto paper/other material, where the accurate representation of the visual world is expressed upon a plane surface."
   },
   {
     "id": "6fBC",
-    "name": "Raphinha",
-    "image": "https://www.fcbarcelona.com/photo-resources/2022/07/24/873308b9-d7fb-4da6-a8d2-000721ef6d4c/jugador_fitxa-raphinha.jpg?width=640&height=400",
+    "name": "Eating",
+    "image": "https://pbs.twimg.com/media/Dpm6dGGUYAEQw5S.jpg",
     "age":"31",
-    "practiceTime": "28",
-    "Description": "A technically proficient winger, with good dribbling, decision making and  an appealing and attractive style of play Raphael Dias Belloli (Raphinha) was born on 14 December 1996 in Porto Alegre, Brazil. He joined the Club from Leeds United in summer 2022."
+    "practiceTime": "1.5",
+    "Description": "Eating a healthy diet is not about strict limitations, staying unrealistically thin, or depriving yourself of the foods you love. Rather, it’s about feeling great, having more energy, improving your health, and boosting your mood.Healthy eating doesn’t have to be overly complicated. If you feel overwhelmed by all the conflicting nutrition and diet advice out there, you’re not alone. It seems that for every expert who tells you a certain food is good for you, you’ll find another saying exactly the opposite."
   }
 ]

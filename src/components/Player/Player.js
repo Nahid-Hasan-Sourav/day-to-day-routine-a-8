@@ -4,7 +4,7 @@ import './Player.css'
 
 const Player = ({player,handleAddTime}) => {
     console.log("props",player);
-    const{image,name,age,practiceTime,Description,
+    const{image,name,practiceTime,Description,
     }=player;
     return (
         <div className='player-cart'>
@@ -18,10 +18,10 @@ const Player = ({player,handleAddTime}) => {
                 }
                
                 </p>
-                <h5 className='player-age'>Age : {age} Years</h5>
-                <h5 className='player-practice-time'>Time required : {practiceTime}</h5>
+                
+                <h5 className='player-practice-time'>Time required : {practiceTime} Hour</h5>
             </div>
-            <button className='player-btn'onClick={(e)=>handleAddTime(practiceTime,e.target.innerText="Added")}>Add To List</button>
+            <button className='player-btn'onClick={(e)=>handleAddTime(practiceTime,e.target.innerText="Added",e.target.style.backgroundColor="#0c7075")}>Add To List</button>
         </div>
     );
 };

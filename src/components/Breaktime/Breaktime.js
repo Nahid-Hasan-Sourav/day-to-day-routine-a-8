@@ -2,15 +2,19 @@ import React, { useState } from "react";
 import Exercisedetails from "../ExcerciseDetails/Exercisedetails";
 import "./Breaktime.css";
 
-const Breaktime = () => {
+const Breaktime = ({saveTime}) => {
     const [storeTime,setStoreTime]=useState(0)
   const timeArray = [10, 20, 30,40,50];
   const takenTime =(e)=>{
     // console.log(e.target.innerText);
     setStoreTime(e.target.innerText.slice(0,2));
+    e.target.style.backgroundColor = "orange"
+    // setTimeout(() => {
+    //   e.target.style.backgroundColor='white'
+    // }, 100);
   }
-  console.log(storeTime);
-  console.log(typeof storeTime);
+  // console.log(storeTime);
+  // console.log(typeof storeTime);
   return (
     <div className="break-time-container">
 
@@ -30,6 +34,7 @@ const Breaktime = () => {
               <div>
                 <Exercisedetails
                 storeTime={storeTime}
+                saveTime={saveTime}
                 >
 
                 </Exercisedetails>

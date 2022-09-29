@@ -10,6 +10,7 @@ const Home = () => {
 
     const [players,setPlayers]=useState([]);
     const[saveTime,setsaveTime]=useState([]);
+   
 
     useEffect(()=>{
         fetch('dataset.json')
@@ -25,22 +26,29 @@ const Home = () => {
     console.log("PLayers",players)
 
     const handleAddTime=(time)=>{
-        return(
-            console.log(time)
+       
+           
+            const saveTimeArray=[...saveTime,time];
+            setsaveTime(saveTimeArray)
+           
+           
             
-        )
+
+      
     }
+
+    console.log("Save Time",saveTime)
 
     return (
         <div className='main-home-container'>
 
             <div className="title-logo-text">
                 <div className="title-logo">
-                <img src={logo} alt="logo" className="logo" />
-                 <h3>Barcelona Activities Club</h3>
+                {/* <img src={logo} alt="logo" className="logo" /> */}
+                 <h3>DAY-TO-DAY ROUTINE</h3>
                 </div>
                 <h3>
-                  Select today’s exercise
+                  Select today’s Activitie's
                 </h3>
             </div>
         <div className="home-container">
@@ -52,6 +60,7 @@ const Home = () => {
                         player={player}
                         key={player.id}
                         handleAddTime={handleAddTime}
+
                         ></Player>
                        )
                     })
@@ -67,10 +76,10 @@ const Home = () => {
                 </div>
                 <div className="add-a-break">
                    <Breaktime 
-                  
+                  saveTime={saveTime}
                    ></Breaktime>
                 </div>
-                <button>Activity Completed</button>
+                <button className='activity-btn'>Activity Completed</button>
             </div>
         </div>
             
