@@ -42,11 +42,11 @@ const Breaktime = ({saveTime}) => {
                     <h2>Add A Break</h2>
                   </div>
                   <div className="break-circle-time">
-                  <h5 onClick={takenTime}>10M</h5>
-                  <h5 onClick={takenTime}>20M</h5>
-                  <h5 onClick={takenTime}>30M</h5>
-                  <h5 onClick={takenTime}>40M</h5>
-                  <h5 onClick={takenTime}>50M</h5>
+                  <p onClick={takenTime}>10M</p>
+                  <p onClick={takenTime}>20M</p>
+                  <p onClick={takenTime}>30M</p>
+                  <p onClick={takenTime}>40M</p>
+                  <p onClick={takenTime}>50M</p>
                     {/* {timeArray.map((t,id) => {
                       return <h5
                       onClick={takenTime} key={id}

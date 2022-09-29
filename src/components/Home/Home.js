@@ -54,55 +54,58 @@ const Home = () => {
     console.log("Save Time",saveTime)
 
     return (
-        <div className='main-home-container'>
+        <div>
 
+<div className='main-home-container'>
            
-        <div className="home-container">
-            <div className="left-sides">
-            <div className="title-logo-text">
-                <div className="title-logo">
-                <img src={logo} className='logo' alt='logo'/>
-                 <h3>DAY-TO-DAY ROUTINE</h3>
-                </div>
-                <h3>
-                  Select today’s Activitie's
-                </h3>
-            </div>
-            <div className="left-side">
-                {
-                    activities.map((activity)=>{
-                       return(
-                        <Activity
-                        activity={activity}
-                        key={activity.id}
-                        handleAddTime={handleAddTime}
+           <div className="home-container">
+               <div className="left-sides">
+               <div className="title-logo-text">
+                   <div className="title-logo">
+                   <img src={logo} className='logo' alt='logo'/>
+                    <h3>DAY-TO-DAY ROUTINE</h3>
+                   </div>
+                   <h3>
+                     Select today’s Activitie's
+                   </h3>
+               </div>
+               <div className="left-side">
+                   {
+                       activities.map((activity)=>{
+                          return(
+                           <Activity
+                           activity={activity}
+                           key={activity.id}
+                           handleAddTime={handleAddTime}
+   
+                           ></Activity>
+                          )
+                       })
+                   }
+                 
+               </div>
+               </div>
+               
+   
+               <div className="right-side">
+                   <div className="profile">
+                      <img src={proImg} alt='profile' className='profile-image'/>
+                      <h4>Nahid Hasan Sourav</h4>
+                      <h5>Web Devloper</h5>
+                      <h6>Dhaka,Bangladesh</h6>
+                   </div>
+                   <div className="add-a-break">
+                      <Breaktime 
+                     saveTime={saveTime}
+                      ></Breaktime>
+                   </div>
+                   <button className='activity-btn' onClick={showToast}>Activity Completed</button>
+                   <ToastContainer/>
+               </div>
+           </div>
+               
+           </div>
 
-                        ></Activity>
-                       )
-                    })
-                }
-              
-            </div>
-            </div>
-            
-
-            <div className="right-side">
-                <div className="profile">
-                   <img src={proImg} alt='profile' className='profile-image'/>
-                   <h4>Nahid Hasan Sourav</h4>
-                   <h5>Web Devloper</h5>
-                   <h6>Dhaka,Bangladesh</h6>
-                </div>
-                <div className="add-a-break">
-                   <Breaktime 
-                  saveTime={saveTime}
-                   ></Breaktime>
-                </div>
-                <button className='activity-btn' onClick={showToast}>Activity Completed</button>
-                <ToastContainer/>
-            </div>
-        </div>
-            
         </div>
     );
 };

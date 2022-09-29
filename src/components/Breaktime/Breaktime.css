@@ -11,21 +11,36 @@
     display: 
     flex;
    justify-content: space-evenly;
+   align-items: center;
    padding: 10px;
    background-color: #0c7075;
    border-radius: 8px;
+   height: 80px;
 }
-.break-circle-time h5{
-   width: 50px !important;
-   height: 50px !important;
+.break-circle-time p{
+   width: 40px !important;
+   height:40px !important;
    display: flex;
    justify-content: center;
    align-items: center;
    background-color: aliceblue;
    border-radius: 50% !important;
    cursor: pointer;
-  padding: 6px;
+   margin-left: 5px;
+   padding:26px;
+   
 }
 .break-time-container{
     margin-top: 20px;
 }
+
+@media (max-width: 575.98px) { 
+    .break-circle-time p{
+        width: 40px !important;
+        height:40px !important;
+        font-size: 16px;
+       margin: 0px;
+       padding: 10px;
+        
+     }
+  }
