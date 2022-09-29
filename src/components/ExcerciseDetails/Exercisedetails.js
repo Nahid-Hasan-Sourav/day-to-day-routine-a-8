@@ -2,7 +2,7 @@ import React from 'react';
 import './Exercisedetails.css'
 
 
-const Exercisedetails = ({storeTime,saveTime}) => {
+const Exercisedetails = ({breakTime,saveTime}) => {
 console.log("This is saved time :",saveTime)
     
    let total=0;
@@ -21,11 +21,11 @@ console.log("This is saved time :",saveTime)
            
             <div className="break-times">
                 <h6>Exercise time</h6>
-                <p>{total} Seconds</p>
+                <p>{total} Hours</p>
             </div>
             <div className="break-times">
                 <h6> Break time</h6>
-                <p>{storeTime} M</p>
+                <p>{breakTime} Minute</p>
             </div>
         </div>
     );

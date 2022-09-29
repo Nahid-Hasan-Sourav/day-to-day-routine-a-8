@@ -44,7 +44,7 @@ const Home = () => {
 
             <div className="title-logo-text">
                 <div className="title-logo">
-                {/* <img src={logo} alt="logo" className="logo" /> */}
+              
                  <h3>DAY-TO-DAY ROUTINE</h3>
                 </div>
                 <h3>
