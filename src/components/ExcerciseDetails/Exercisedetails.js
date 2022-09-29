@@ -25,7 +25,7 @@ const Exercisedetails = ({breakTime,saveTime}) => {
             </div>
             <div className="break-times">
                 <h6> Break time</h6>
-                <p>{breakTime} Minute</p>
+                <p>{breakTime} Minutes</p>
             </div>
         </div>
     );
