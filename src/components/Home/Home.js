@@ -40,8 +40,15 @@ const Home = () => {
       
     }
    const showToast =(e)=>{
-    toast("Activity Completed Successfully!!");
-    e.target.style.backgroundColor="red"
+    
+   
+    if(saveTime.length<=0){
+        toast("Please Select Any Activity!!");
+    }
+    else{
+        toast("Activity Completed Successfully!!");
+        e.target.style.backgroundColor="red"
+    }
    }
 
     console.log("Save Time",saveTime)
@@ -49,6 +56,9 @@ const Home = () => {
     return (
         <div className='main-home-container'>
 
+           
+        <div className="home-container">
+            <div className="left-sides">
             <div className="title-logo-text">
                 <div className="title-logo">
                 <img src={logo} className='logo' alt='logo'/>
@@ -58,7 +68,6 @@ const Home = () => {
                   Select today’s Activitie's
                 </h3>
             </div>
-        <div className="home-container">
             <div className="left-side">
                 {
                     activities.map((activity)=>{
@@ -74,12 +83,15 @@ const Home = () => {
                 }
               
             </div>
+            </div>
+            
 
             <div className="right-side">
                 <div className="profile">
                    <img src={proImg} alt='profile' className='profile-image'/>
-                   <h2>Nahid Hasan Sourav</h2>
-                   <h4>Web Devloper</h4>
+                   <h4>Nahid Hasan Sourav</h4>
+                   <h5>Web Devloper</h5>
+                   <h6>Dhaka,Bangladesh</h6>
                 </div>
                 <div className="add-a-break">
                    <Breaktime 
@@ -87,7 +99,7 @@ const Home = () => {
                    ></Breaktime>
                 </div>
                 <button className='activity-btn' onClick={showToast}>Activity Completed</button>
-                <ToastContainer />
+                <ToastContainer/>
             </div>
         </div>
             
