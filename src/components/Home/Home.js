@@ -1,6 +1,6 @@
 import './Home.css'
 import React, { useEffect, useState } from 'react';
-
+import logo from '../../Images/logoDaily.png'
 import proImg from '../../Images/blue--.png'
 
 
@@ -47,7 +47,7 @@ const Home = () => {
 
             <div className="title-logo-text">
                 <div className="title-logo">
-              
+                <img src={logo} className='logo' alt='logo'/>
                  <h3>DAY-TO-DAY ROUTINE</h3>
                 </div>
                 <h3>

@@ -13,6 +13,9 @@
 }
 .player-name{
     margin: 12px 0px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
 }
 
 .player-details{
@@ -38,6 +41,10 @@
     cursor: pointer;
     margin: 16px 0px 8px 0px;
 
+}
+.player-practice-time{
+    font-weight: 500;
+    font-size:18px;
 }
 /* .player-btn:focus{
     background-color: #0c7075;

@@ -2,7 +2,7 @@
   {
     "id": "1aBC",
     "name": "Study",
-    "image": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c3R1ZHl8ZW58MHx8MHx8&w=1000&q=80",
+    "image": "https://images.unsplash.com/photo-1610050731641-f855ccdaf3f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDR8fHN0dWR5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
     "age":"23",
     "practiceTime": "2.5",
     "Description": "Studying is not just important for educational development, but also builds personal skills. Having good study skills can improve your confidence, competence, and self-esteem. As well as helps reduce stress and anxiety around deadlines and exams."
@@ -29,20 +29,20 @@
     "image": "https://www.freecodecamp.org/news/content/images/size/w2000/2022/03/photo-1619410283995-43d9134e7656.jpeg",
     "age":"30",
     "practiceTime": "7",
-    "Description": "Coding, sometimes called computer programming, is how we communicate with computers. Code tells a computer what actions to take, and writing code is like creating a set of instructions. By learning to write code, you can tell computers what to do or how to behave in a much faster way."
+    "Description": "Yes! Coding can be a good career for many professionals. Those with coding jobs often enjoy a high salary, work flexibility (such as the ability to find a remote coding job), and plentiful job opportunities.and writing code is like creating a set of instructions. By learning to write code, you can tell computers what to do or how to behave in a much faster way."
   },
   {
     "id": "5eBC",
     "name": "Drawing",
-    "image": "https://www.easy-drawings-and-sketches.com/images/spiderman-21926967.jpg",
+    "image": "https://images.unsplash.com/photo-1457295767206-0cb0658056cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fG1hbiUyMGRyYXdpbmd8ZW58MHx8MHx8&w=1000&q=80",
     "age":"26",
     "practiceTime": "1",
-    "Description": "Drawing is one of the oldest forms of human expression within the visual arts. It is generally concerned with the marking of lines and areas of tone onto paper/other material, where the accurate representation of the visual world is expressed upon a plane surface."
+    "Description": "Drawing is one of the oldest forms of human expression within the visual arts. It is generally concerned with the marking of lines and areas of tone onto paper other material, where the accurate representation of the visual world is expressed upon a plane surface."
   },
   {
     "id": "6fBC",
     "name": "Eating",
-    "image": "https://pbs.twimg.com/media/Dpm6dGGUYAEQw5S.jpg",
+    "image": "https://img.freepik.com/free-photo/man-eats-greedily-delicious-hamburger-feels-very-hungry-consumes-fast-food-wears-round-spectacles-jumper_273609-51713.jpg?w=2000",
     "age":"31",
     "practiceTime": "1.5",
     "Description": "Eating a healthy diet is not about strict limitations, staying unrealistically thin, or depriving yourself of the foods you love. Rather, it’s about feeling great, having more energy, improving your health, and boosting your mood.Healthy eating doesn’t have to be overly complicated. If you feel overwhelmed by all the conflicting nutrition and diet advice out there, you’re not alone. It seems that for every expert who tells you a certain food is good for you, you’ll find another saying exactly the opposite."

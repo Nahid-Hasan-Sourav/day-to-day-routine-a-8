@@ -1,7 +1,7 @@
 // use local storage to manage cart data
-const addToDb = id =>{
+const addToDb = time =>{
    
-    localStorage.setItem('Time', id);
+    localStorage.setItem('Time', time);
 }
 
 
