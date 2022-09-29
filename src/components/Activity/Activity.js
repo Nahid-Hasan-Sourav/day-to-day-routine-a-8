@@ -1,8 +1,8 @@
 /* eslint-disable no-undef */
 import React from 'react';
-import './Player.css'
+import './Activity.css'
 
-const Player = ({player,handleAddTime}) => {
+const Activity = ({player,handleAddTime}) => {
     console.log("props",player);
     const{image,name,practiceTime,Description,
     }=player;
@@ -26,4 +26,4 @@ const Player = ({player,handleAddTime}) => {
     );
 };
 
-export default Player;
+export default Activity;

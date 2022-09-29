@@ -3,7 +3,7 @@ import Exercisedetails from "../ExcerciseDetails/Exercisedetails";
 import "./Breaktime.css";
 
 const Breaktime = ({saveTime}) => {
-    const [storeTime,setStoreTime]=useState(0)
+  const [storeTime,setStoreTime]=useState(0)
   const timeArray = [10, 20, 30,40,50];
   const takenTime =(e)=>{
     // console.log(e.target.innerText);

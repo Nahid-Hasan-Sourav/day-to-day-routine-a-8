@@ -1,8 +1,8 @@
 import './Home.css'
 import React, { useEffect, useState } from 'react';
-import logo from '../../Images/Barcelona(200x203) .png';
+
 import proImg from '../../Images/blue--.png'
-import Player from '../Player/Player';
+import Player from '../Activity/Activity';
 
 import Breaktime from '../Breaktime/Breaktime';
 
