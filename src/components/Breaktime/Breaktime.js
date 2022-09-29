@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { addToDb } from "../../utilities/Fakedb";
-import Exercisedetails from "../ExcerciseDetails/Exercisedetails";
+import Activitydetails from "../ActivityDetails/Activitydetails";
 import "./Breaktime.css";
 
 const Breaktime = ({saveTime}) => {
@@ -55,13 +55,13 @@ const Breaktime = ({saveTime}) => {
                   </div>
               </div>
               <div>
-                <Exercisedetails
+                <Activitydetails
                
                breakTime={breakTime}
                saveTime={saveTime}
                 >
 
-                </Exercisedetails>
+                </Activitydetails>
               </div>
 
     </div>

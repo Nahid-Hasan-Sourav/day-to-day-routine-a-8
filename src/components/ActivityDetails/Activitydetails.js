@@ -1,8 +1,8 @@
 import React from 'react';
-import './Exercisedetails.css'
+import './Activitydetails.css'
 
 
-const Exercisedetails = ({breakTime,saveTime}) => {
+const Activitydetails = ({breakTime,saveTime}) => {
 // console.log("This is saved time :",saveTime)
     
    let total=0;
@@ -16,11 +16,11 @@ const Exercisedetails = ({breakTime,saveTime}) => {
     return (
         <div className='excercise-time-container'>
             <div className="exercise-text">
-               <h2>Exercise Details</h2>
+               <h2>Activity Details</h2>
             </div>
            
             <div className="exercise-times">
-                <h6>Exercise time</h6>
+                <h6>Activity time</h6>
                 <p>{total} Hours</p>
             </div>
             <div className="break-times">
@@ -31,4 +31,4 @@ const Exercisedetails = ({breakTime,saveTime}) => {
     );
 };
 
-export default Exercisedetails;
+export default Activitydetails;
